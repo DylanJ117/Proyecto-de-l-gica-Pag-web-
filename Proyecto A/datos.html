@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--este body sirve para recolectar los datos del cliente y la cantidad con la que se va a pagar misma informacion se guarda en el local storage-->
+<body>
+    <h1>Agregar Datos del Cliente</h1>
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    </div>
+    <div class="form-group">
+        <label for="nit">NIT:</label>
+        <input type="text" id="nit" placeholder="Ingrese su NIT">
+    </div>
+    <div>
+        <label for="pago">Cantidad con la que se va a pagar </label>
+        <input type="text" id="pago" placeholder="Ingrese la cantidad del pago">
+    </div>
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+    <script src="script.js"></script>
+</body>
+</html>
+

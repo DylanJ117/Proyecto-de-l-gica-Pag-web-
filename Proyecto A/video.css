@@ -1,0 +1,12 @@
+body, html {    /* hace que el html tenga un tamaño exacto al video*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {    /*hace que no se salga del tamaño establecido de la pantalla */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
