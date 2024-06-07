@@ -83,3 +83,8 @@ function Tuto() {
     window.location.href='Index.html'
 }
 //🦀 Cangrejo en el codigo :O
+
+//funcion volver al index
+function VolverAlIndex(){
+    window.location.href = "/Principal/Principal.html"
+}

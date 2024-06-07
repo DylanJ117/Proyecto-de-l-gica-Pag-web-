@@ -164,3 +164,8 @@ function borrarInformacion() {
 function sorpresa(){
     window.location.href = 'sorpresa.html';
 }
+
+//funcion volver al index
+function VolverAlIndex(){
+    window.location.href = "/Principal/Principal.html"
+}
