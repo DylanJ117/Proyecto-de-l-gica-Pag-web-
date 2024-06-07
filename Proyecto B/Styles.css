@@ -64,3 +64,13 @@ body {
 #equal {
     grid-row: span 2;
 }
+
+footer{
+    background-color: rgb(175, 175, 175);
+    color: black;
+    font-size: large;
+    padding: 5px 5px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid rgb(5, 5, 5);
+}

@@ -57,3 +57,7 @@ h2 {     /* ajsuta los h2 al centro*/
     justify-content: center;
 }
 
+/*Ajuste del Boton de regresar al index pricipal*/
+.Prin{
+    width: 10px ;
+}
