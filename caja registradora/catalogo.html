@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!---- en este body se utiliza para mostrar las imagenes del catalogo y cada div llama a las funciones que guardaran la informacion en el futuro ---->
+<body>
+    <h1>Catálogo de Productos</h1>
+    <div class="producto">
+        <img src="image/manzana.webp" alt="Manzana">
+        <p>Manzana - Q5.00</p>
+        <input type="number" id="cantidad-manzana" min="1" value="1">
+        <button onclick="agregarAlCarrito('manzana', document.getElementById('cantidad-manzana').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/naranja.png" alt="Naranja">
+        <p>Naranja - Q5.00</p>
+        <input type="number" id="cantidad-naranja" min="1" value="1">
+        <button onclick="agregarAlCarrito('naranja', document.getElementById('cantidad-naranja').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/lavadora.png" alt="Lavadora">
+        <p>Lavadora - Q1500.00</p>
+        <input type="number" id="cantidad-lavadora" min="1" value="1">
+        <button onclick="agregarAlCarrito('lavadora', document.getElementById('cantidad-lavadora').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/comida de perro.png" alt="Comida para Perro">
+        <p>Comida para Perro - Q35.99</p>
+        <input type="number" id="cantidad-comidap" min="1" value="1">
+        <button onclick="agregarAlCarrito('comida para perro', document.getElementById('cantidad-comidap').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/comida de gato.png" alt="Comida para gato">
+        <p>Comida para gato - Q35.99</p>
+        <input type="number" id="cantidad-comidag" min="1" value="1">
+        <button onclick="agregarAlCarrito('comida para gato', document.getElementById('cantidad-comidag').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/Jamon-Serrano.png" alt="Jamon">
+        <p>Jamon - Q15.99</p>
+        <input type="number" id="cantidad-jamon" min="1" value="1">
+        <button onclick="agregarAlCarrito('jamon', document.getElementById('cantidad-jamon').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/lays.png" alt="Lays">
+        <p>Lays - Q18.23</p>
+        <input type="number" id="cantidad-lays" min="1" value="1">
+        <button onclick="agregarAlCarrito('lays', document.getElementById('cantidad-lays').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/coca.webp" alt="Coca-Cola">
+        <p>Coca-Cola - Q18.18</p>
+        <input type="number" id="cantidad-coca" min="1" value="1">
+        <button onclick="agregarAlCarrito('coca-cola', document.getElementById('cantidad-coca').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/desodorante.png" alt="Desodorante">
+        <p>Desodorante - Q23.25</p>
+        <input type="number" id="cantidad-desodorante" min="1" value="1">
+        <button onclick="agregarAlCarrito('desodorante', document.getElementById('cantidad-desodorante').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="/image/pan.png" alt="Pan">
+        <p>Pan - Q26.29</p>
+        <input type="number" id="cantidad-pan" min="1" value="1">
+        <button onclick="agregarAlCarrito('pan', document.getElementById('cantidad-pan').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/huevos.webp" alt="Huevos">
+        <p>Huevos - Q23.25</p>
+        <input type="number" id="cantidad-huevos" min="1" value="1">
+        <button onclick="agregarAlCarrito('huevos', document.getElementById('cantidad-huevos').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="/image/chocapic.png" alt="Cereal">
+        <p>Cereal - Q19.13</p>
+        <input type="number" id="cantidad-chocapic" min="1" value="1">
+        <button onclick="agregarAlCarrito('cereal', document.getElementById('cantidad-chocapic').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="image/leche.webp" alt="Leche">
+        <p>Leche - Q12.29</p>
+        <input type="number" id="cantidad-leche" min="1" value="1">
+        <button onclick="agregarAlCarrito('leche', document.getElementById('cantidad-leche').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="/image/yogurt.webp" alt="Yogurt">
+        <p>Yogurt - Q26.29</p>
+        <input type="number" id="cantidad-yogurt" min="1" value="1">
+        <button onclick="agregarAlCarrito('yogurt', document.getElementById('cantidad-yogurt').value)">Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="/image/acetaminofen.png" alt="Acetaminofen">
+        <p>Acetaminofen - Q20.00</p>
+        <input type="number" id="cantidad-acetaminofen" min="1" value="1">
+        <button onclick="agregarAlCarrito('acetaminofen', document.getElementById('cantidad-acetaminofen').value)">Comprar</button>
+    </div>
+    <section>  
+        <button onclick="irACarrito()">Ir al Carrito</button>
+        <button onclick="irABuscarProducto()">Buscar Producto</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
